@@ -4,12 +4,16 @@
 
 # Site
 title: Mrblack
-subtitle: ''
-description: ''
-keywords:
+avatar: https://gravatar.loli.net/avatar/2344cde150493e6b2a34bab58008ff42.png?s=60&d=mm&r=G
+subtitle: 'Blog'
+description: 'mrblackの小屋'
+keywords: [mrblack, web, 网站]
 author: Mrblack
-language: zh-CN
-timezone: ''
+language:
+  - zh-CN
+  - en
+  - zh-TW
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -40,7 +44,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -102,4 +106,20 @@ theme: stellar
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+    type: git
+    repo: git@github.com:steven12030802/blog.github.io.git
+    branch: master
+    message: updated:{{ now("yyyy-MM-DD HH:mm:ss") }}
+
+inject:
+  head:
+    - <link rel="shortcut icon" href="https://blog.mrblack.cc/favicon.ico" type="image/x-icon">
+    - <link rel="shortcut icon" href="/favicon.ico">
+    - <link rel="bookmark" href="/favicon.ico">
+
+# Admin
+admin:
+  username: mrblack
+  password_hash: $2a$10$MWqUbQHR9G0oT71S5ok1mONprIrgnljQYAc0H.wur7IfPAOH.6bxO
+  secret: heheda.0
+  
