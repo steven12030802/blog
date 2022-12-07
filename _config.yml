@@ -113,7 +113,6 @@ deploy:
 
 inject:
   head:
-    - <link rel="shortcut icon" href="https://s1.aigei.com/src/img/png/b9/b9b61dea77694f54864e72cec54f1f65.png?imageMogr2/auto-orient/thumbnail/!234x234r/gravity/Center/crop/234x234/quality/85/&e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:lqDE3rX6KFujxtfpG0iaqpgm80Y=" type="image/x-icon">
     - <link rel="shortcut icon" href="/favicon.ico">
     - <link rel="bookmark" href="/favicon.ico">
 
