@@ -7,6 +7,7 @@ tags:
 ---
 大家都知道Centos8于2021年年底停止了服务，大家再在使用yum源安装时候，出现下面错误
 `错误：Failed to download metadata for repo ‘AppStream’: Cannot prepare internal mirrorlist: No URLs in mirrorlist`
+解决办法：
 
 1. 进入yum的repos目录
 ```
