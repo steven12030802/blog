@@ -7,6 +7,5 @@ public/
 _multiconfig.yml
 _config.yml
 _config.stellar.yml
-node_modules/
 node_modules/.yarn-integrity
 node_modules
