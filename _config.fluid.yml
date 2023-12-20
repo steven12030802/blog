@@ -423,7 +423,7 @@ open_graph:
 footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
-  content: '<a href="https://beian.miit.gov.cn/" target="_blank">陇ICP备2020004336号-1</a> 友情链接: <a href="http://www.kuaidi.com/" target="_blank">快递查询API</a> <a href=\"https://beian.mps.gov.cn/#/query/webSearch?code=62010302001575\" rel=\"noreferrer\" target=\"_blank\">甘公网安备62010302001575</a>'
+  content: '<a href="https://beian.miit.gov.cn/" target="_blank">陇ICP备2020004336号-1</a> 友情链接: <a href="http://www.kuaidi.com/" target="_blank">快递查询API</a>'
   #  <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
   #  <i class="iconfont icon-love"></i>
   #  <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
@@ -440,13 +440,13 @@ footer:
   # 国内大陆服务器的备案信息
   # For Chinese mainland website policy, other areas keep disable
   beian:
-    enable: false
+    enable: true
     # ICP证号
-    icp_text: 京ICP证123456号
+    icp_text: 甘公网安备62010302001575
     # 公安备案号，不填则只显示ICP
-    police_text: 京公网安备12345678号
+    police_text: 甘公网安备62010302001575
     # 公安备案的编号，用于URL跳转查询
-    police_code: 12345678
+    police_code: 62010302001575
     # 公安备案的图片. 为空时不显示备案图片
     police_icon: /img/police_beian.png
 
